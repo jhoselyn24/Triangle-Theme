@@ -205,6 +205,13 @@ h3 {
     margin-top: 60px; }
   #home-slider p {
     margin: 28px 0 30px; }
+  #home-slider .slider-cycle {
+    margin-top: 103px;
+    float: left; }
+  #home-slider .slider-house {
+    float: right;
+    margin-right: -66px;
+    margin-bottom: 14px; }
 
 #services .service-1 {
   padding: 40px 50px; }
@@ -215,5 +222,11 @@ h3 {
 
 #features .row {
   margin-top: 50px; }
+
+.responsive {
+  background-image: url(../images/home/tour-bg.png);
+  background-color: #FDFCFC;
+  padding: 20px 0;
+  background-position-y: -40px; }
 
 /*# sourceMappingURL=main.css.map */

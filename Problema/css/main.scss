@@ -296,6 +296,15 @@ h3 {
   p {
     margin: 28px 0 30px;
   }
+  .slider-cycle {
+    margin-top: 103px;
+    float: left;
+  }
+  .slider-house {
+    float: right;
+    margin-right: -66px;
+    margin-bottom: 14px;
+  }
 }
 #services {
 
@@ -318,4 +327,10 @@ h3 {
   .row {
     margin-top: 50px;
   }
+}
+.responsive {
+  background-image: url(../images/home/tour-bg.png);
+  background-color: #FDFCFC;
+  padding: 20px 0;
+  background-position-y: -40px;
 }
