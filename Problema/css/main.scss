@@ -296,6 +296,15 @@ h3 {
   p {
     margin: 28px 0 30px;
   }
+  .slider-cycle {
+    margin-top: 103px;
+    float: left;
+  }
+  .slider-house {
+    float: right;
+    margin-right: -66px;
+    margin-bottom: 14px;
+  }
 }
 #services {
 
@@ -317,5 +326,66 @@ h3 {
 #features {
   .row {
     margin-top: 50px;
+  }
+}
+.responsive {
+  background-image: url(../images/home/tour-bg.png);
+  background-color: #FDFCFC;
+  padding: 20px 0;
+  background-position-y: -40px;
+
+  .tour-button {
+    float: left;
+    margin-top: 45px;
+  }
+}
+#clients {
+  padding: 85px 0;
+
+  p img {
+    margin: auto;
+  }
+  h1 {
+    margin-top: 30px;
+    color: #4A4848;
+  }
+  .clients-logo {
+    margin: 50px 0;
+  }
+}
+#footer {
+  background-image: url(../images/home/footer.png);
+  background-repeat: no-repeat;
+  background-position-y: 100%;
+
+  .bottom-separator {
+    margin-bottom: 70px;
+  }
+  h2 {
+    margin-bottom: 70px;
+  }
+  h3 {
+    font-weight: 500;
+  }
+  blockquote {
+    font-weight: 600;
+  }
+  .copyright-text {
+    margin: 100px 0;
+  }
+  address {
+    font-weight: 600;
+  }
+  .form-control {
+    border: 1px solid #DA9F54;
+  }
+  .btn-submit {
+    width: 360px;
+    background-color: #D89B4E;
+    color: white;
+    font-weight: 300;
+    font-size: 17px;
+    border-bottom: 4px solid #946625;
+    padding: 10px;
   }
 }
