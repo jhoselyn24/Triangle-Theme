@@ -285,26 +285,66 @@ h3 {
 }
 #home-slider {
   background-image: url('../images/home/slider-bg.png');
-  height: 100%;
   background-repeat: repeat-x;
-  background-position: -17% 80%;
+  background-position: -17% 105%;
   margin-top: 30px;
   
   .slide-text {
-    margin-top: 60px; 
+    margin-top: 60px;
+    margin-bottom: 125px; 
   }
   p {
     margin: 28px 0 30px;
   }
-  .slider-cycle {
-    margin-top: 103px;
-    float: left;
+  .box-cloud {
+    position: relative;
+    height: 192px;
+
+    .slider-cloud2 {
+      position: absolute;
+      left: 20%;
+      top: -21%;
+    }
+    .slider-circle1 {
+      position: absolute;
+      top: 78%;
+      left: 29%;
+    }
+    .slider-circle2 {
+      position: absolute;
+      top: 65%;
+      left: 32%;
+    }
+    .slider-cloud1 {
+      position: absolute;
+      left: 38%;
+      top: 36%;
+    }
+    .slider-sun {
+      position: absolute;
+      left: 50%;
+      top: -30%;
+    }
+    .slider-cloud3 {
+      position: absolute;
+      right: 13%;
+      top: 7%;
+    }
   }
-  .slider-house {
-    float: right;
-    margin-right: -66px;
-    margin-bottom: 14px;
+  .box-house {
+    position: relative;
+    .slider-cycle {
+      position: absolute;
+      top: 103px;
+      left: -9%;
+    }
+    .slider-house {
+      position: absolute;
+      right: 0%;
+      top: 1px;
+    }
   }
+  
 }
 #services {
 
@@ -357,6 +397,7 @@ h3 {
   background-image: url(../images/home/footer.png);
   background-repeat: no-repeat;
   background-position-y: 100%;
+  background-position-x: 21%; 
 
   .bottom-separator {
     margin-bottom: 70px;

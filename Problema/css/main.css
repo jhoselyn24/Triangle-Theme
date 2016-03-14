@@ -197,21 +197,51 @@ h3 {
 
 #home-slider {
   background-image: url("../images/home/slider-bg.png");
-  height: 100%;
   background-repeat: repeat-x;
-  background-position: -17% 80%;
+  background-position: -17% 105%;
   margin-top: 30px; }
   #home-slider .slide-text {
-    margin-top: 60px; }
+    margin-top: 60px;
+    margin-bottom: 125px; }
   #home-slider p {
     margin: 28px 0 30px; }
-  #home-slider .slider-cycle {
-    margin-top: 103px;
-    float: left; }
-  #home-slider .slider-house {
-    float: right;
-    margin-right: -66px;
-    margin-bottom: 14px; }
+  #home-slider .box-cloud {
+    position: relative;
+    height: 192px; }
+    #home-slider .box-cloud .slider-cloud2 {
+      position: absolute;
+      left: 20%;
+      top: -21%; }
+    #home-slider .box-cloud .slider-circle1 {
+      position: absolute;
+      top: 78%;
+      left: 29%; }
+    #home-slider .box-cloud .slider-circle2 {
+      position: absolute;
+      top: 65%;
+      left: 32%; }
+    #home-slider .box-cloud .slider-cloud1 {
+      position: absolute;
+      left: 38%;
+      top: 36%; }
+    #home-slider .box-cloud .slider-sun {
+      position: absolute;
+      left: 50%;
+      top: -30%; }
+    #home-slider .box-cloud .slider-cloud3 {
+      position: absolute;
+      right: 13%;
+      top: 7%; }
+  #home-slider .box-house {
+    position: relative; }
+    #home-slider .box-house .slider-cycle {
+      position: absolute;
+      top: 103px;
+      left: -9%; }
+    #home-slider .box-house .slider-house {
+      position: absolute;
+      right: 0%;
+      top: 1px; }
 
 #services .service-1 {
   padding: 40px 50px; }
@@ -245,7 +275,8 @@ h3 {
 #footer {
   background-image: url(../images/home/footer.png);
   background-repeat: no-repeat;
-  background-position-y: 100%; }
+  background-position-y: 100%;
+  background-position-x: 21%; }
   #footer .bottom-separator {
     margin-bottom: 70px; }
   #footer h2 {
